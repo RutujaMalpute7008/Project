@@ -1,0 +1,36 @@
+ body{
+     margin:0;
+     padding: 0;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .container1{
+     background-color: cadetblue;
+     background-size:cover;
+     padding:50px;
+     border-block-color: black;
+ }
+ ul{
+     float:right;
+     list-style-type:none;
+     padding-bottom:2px;
+ }
+ ul li{
+     display:inline-block;
+ }
+ ul li a{
+     text-decoration:none;
+     color:black;
+     padding:5px 20px;
+     border:1px solid black;
+     opacity:.8;
+ }
+ .container2{
+     text-transform:uppercase;
+     color: black;
+     font-size:25px;
+     text-align:center;
+     text-underline-position: center;
+     padding-top:25px;
+     
+ 
+ }

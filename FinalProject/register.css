@@ -1,0 +1,119 @@
+body{
+    margin:0px;
+    padding :0px;
+    background-position: center;
+    font-family: sans-serif;
+    background:#85929E;
+}
+.clg{
+    width:100%;
+    height:20%;
+    background:#52BE80;
+    text-align:center;
+}
+.clgname{
+    width:88%;
+    height:100%;
+    float:right;
+    background:#52BE80;
+    text-align:center;
+}
+.logo{
+    width:12%;
+    height:100%;
+    background:black;
+    float:left;
+}
+.mlogo{
+    border-radius:20px;
+    height:95%;
+    padding-left:20px;
+    padding-top:5px;
+}
+.border{
+    width:100%;
+    height:0.6%;
+    background: #000;
+}
+.register{
+    width:400px;
+    height:970px;
+    background:rgba(0,0,0,0.5);
+    color:rgb(253, 228, 228);
+    top:101%;
+    left:55%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    
+}
+.head{
+    width:400px;
+    height:8%;
+    background:#EAEDED;
+    color:black;
+    position:absolute;
+    text-align:center;
+}
+.section{
+    width:400px;
+    height:100%;
+}
+.form{
+
+    max-width: 100%;
+    background-color: #222;
+    opacity:0.8;
+}
+.input-box{
+    display:block;
+    width:90%;
+    height:35px;
+    background:transparent;
+    border:1px solid #CCD1D1;
+    border-radius:5px;
+    margin:0 auto;
+    font-size:15px;
+    color:white;
+    letter-spacing: 2px;
+    padding-left:40px;
+    margin-top:30px;
+
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-align:center;
+
+  }
+  .button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .menu select{
+    display:block;
+    width:90%;
+    height:35px;
+    background:transparent;
+    border:1px solid #CCD1D1;
+    border-radius:5px;
+    margin:0 auto;
+    font-size:15px;
+    color:white;
+    letter-spacing: 2px;
+    padding-left:40px;
+    margin-top:30px; 
+  }
+  .menu select option{
+      color:black;
+      background-color:rgba(0,0,0,0.5);
+  }
